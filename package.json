@@ -1,33 +1,11 @@
 {
   "name": "remover",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stoppable recursive rmdir.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "gitHead": "8e81935304eddb8a50a3f94c6872e5a0e1992204",
-  "_id": "remover@0.0.1",
-  "_shasum": "ff96b454fc75f883b6ed4db55c86f06e445e7764",
-  "_from": "remover@",
-  "_npmVersion": "2.0.0-alpha-5",
-  "_npmUser": {
-    "name": "tomas",
-    "email": "tomas@forkhq.com"
-  },
-  "maintainers": [
-    {
-      "name": "tomas",
-      "email": "tomas@forkhq.com"
-    }
-  ],
-  "dist": {
-    "shasum": "ff96b454fc75f883b6ed4db55c86f06e445e7764",
-    "tarball": "http://registry.npmjs.org/remover/-/remover-0.0.1.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/remover/-/remover-0.0.1.tgz",
-  "readme": "ERROR: No README data found!"
+  "author": "Tomas Pollak <tomas@forkhq.com>",
+  "license": "ISC"
 }
