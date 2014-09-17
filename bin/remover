@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+
+var remove  = require('../'),
+    path    = process.argv[2],
+    test    = process.argv[3] == 'test';
+
+if (!path || path == '') {
+  console.log('Usage: remover [path] [test]');
+  process.exit(2);
+}
+
+if (test) {
+  var fake = function(path, cb) { console.log('Skipping removal.'); cb() }
+  remove.backend({ unlink: fake, rmdir: fake });
+}
+
+remove.output(process.stdout);
+
+var remover = remove(path, function(err, files) {
+  if (err) 
+    return console.log('Error', err);
+
+  if (!test) {
+    // console.log(files);
+    console.log(files.length + ' files removed');
+  }
+})
+
+process.on('SIGINT', function() {
+  remover.stop();
+})
