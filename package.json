@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomas/remover.git"
+  },
   "author": "Tomas Pollak <tomas@forkhq.com>",
   "license": "ISC"
 }
