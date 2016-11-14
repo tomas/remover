@@ -1,6 +1,6 @@
 {
   "name": "remover",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stoppable recursive rmdir.",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,5 @@
     "url": "https://github.com/tomas/remover.git"
   },
   "author": "Tomas Pollak <tomas@forkhq.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tomas/remover.git"
-  }
+  "license": "MIT"
 }
