@@ -1,6 +1,6 @@
 {
   "name": "remover",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Stoppable recursive rmdir.",
   "main": "index.js",
   "scripts": {
