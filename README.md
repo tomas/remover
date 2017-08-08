@@ -15,7 +15,8 @@ Example
 var rmdir = require('remover');
 
 var remover = rmdir('/path/to/remove', function(err, removed_files) {
-  if (!err) console.log(removed_files); // prints list of files removed
+  if (err) console.warn('Error!', err)
+  console.log(removed_files); // prints list of files removed
 });
 
 // wait 1 second and then stop the removal process
