@@ -30,5 +30,5 @@ Written by Tomás Pollak.
 
 Copyright
 ---------
-(c) 2014 Fork Ltd. MIT licensed.
+(c) Fork Ltd. MIT licensed.
 
